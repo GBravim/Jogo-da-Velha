@@ -1,0 +1,55 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(156, 153, 153);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+table{
+    background-color: #000;
+}
+
+td{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(156, 153, 153);
+}
+
+.game-data{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.game-cell{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.reset{
+    margin: 10px auto;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(26, 114, 26);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#game-result{
+    height: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
